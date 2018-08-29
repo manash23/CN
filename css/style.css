@@ -173,6 +173,9 @@ h1 {
 	color: #fff;
 	background-color: #000;
 }
+#padsections{
+	padding-top: 1vh;
+}
 .resizeimage {
 	
 }
@@ -264,15 +267,14 @@ width: 100%;
 	color: #808080;
 	padding: 10px;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 	border-right: 2px solid rgba(105,105,105,0.2);
 }
 .footer-box1 a{
 	color: #a2a2a2;
 	text-decoration: none;
-	text-align: center;
-	text-align: center;
-}
+	text-align: left;
+	}
 
 .footer-box2{
 	flex: 3;
