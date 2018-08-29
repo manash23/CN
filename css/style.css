@@ -7,9 +7,8 @@ font-family: sans-serif;}
 }
 h1 {
 	text-align: center;
-	font-size: 5vw;
+	font-size: 4vw;
 	font-family: sans-serif;
-	padding-top: 5vw;
 	color: red;
 }
 .top-bar {
@@ -26,8 +25,8 @@ h1 {
 .logo {
 	color: #fff;
 	flex: 1;
-	font-size: 3vw;
-	padding: 2vw;
+	font-size: 2vw;
+	padding: 1vw;
 	
 }
 .menu {
@@ -38,7 +37,7 @@ h1 {
 	
 	display: flex;
 	list-style: none;
-	margin-top: 2.2vw;
+	margin-top: 1vw;
 	flex-flow: row wrap;
 }
 .menu ul li {
@@ -47,7 +46,7 @@ h1 {
 }
 .menu ul li a {
 	color: #fff;
-	font-size: 2.45vw;
+	font-size: 1.5vw;
 	text-decoration: none;
 }
 .menu  ul li a:hover {
@@ -335,7 +334,7 @@ box-sizing: border-box;
 #mid {
 	text-align: center;
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
 	.resizeimage {
 		height: 50vw;
 		width: 70vw;
@@ -344,7 +343,7 @@ box-sizing: border-box;
 }
 	
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 980px){
 	.top-bar{
 		flex-direction: column;
 		text-align: center;
